@@ -1,1 +1,25 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+	--white: #fff;
+	--black: #000;
+	--blue: #b3b5e4;
+	--blue-hover: #8e91fa;
+	--theme-color: #231f20;
+}
+
+*,
+::after,
+::before {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 1440px;
+}
+
+button {
+	padding: 15px 25px;
+	border: transparent;
+	color: white;
+}
